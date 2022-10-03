@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import inspect from "vite-plugin-inspect";
 
 export default defineConfig({
   server: {
@@ -29,5 +30,8 @@ export default defineConfig({
     cssTarget: [
       'chrome89', 'edge89', 'safari15.4', 'firefox96', 'opera75', 'ios15.4'
     ]
-  }
+  },
+  plugins: [
+    inspect()
+  ]
 })
