@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "3.1.4"
+    "vite": "4.5.0"
   },
   "dependencies": {
     "vite-plugin-inspect": "0.7.4"
